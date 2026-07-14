@@ -29,7 +29,7 @@
 # i = 1  # 1
 
 # while 10 >= i:
-#     print('hi')
+#     print(i)
 #     i = i + 1  # 11
 
 
@@ -48,3 +48,37 @@ while run:
             print('Wrong password!')
     else:
         print('Wrong username')
+
+
+# break, continue
+
+
+# while True:
+#     print('Enter your name: ')
+#     name = input()
+#     if name == 'mouse':
+#         break
+#     else:
+#         print('Try again')
+
+
+# i = 1  # 1
+
+# while 10 >= i:
+#     if i == 5:
+#         break
+#     else:
+#         print(i)
+#         i = i + 1  # 2
+
+
+# for loop
+
+# for i in range(1, 11, 3):  # 1,2,3,4,5,6,7,8,9,10
+#     print(i)
+
+# for i in range(1, 11):  # 1,2,3,4,5,6,7,8,9,10
+#     if i == 6:
+#         break
+#     else:
+#         print(i)
