@@ -32,8 +32,11 @@
 #     code
 
 
-# Function definiton
+# def function_name():
+#   function body
 
+
+# Function definiton
 
 # def hello(name):  # name ---> parameter, name = 'mouse'
 #     print("Hi there " + name)
