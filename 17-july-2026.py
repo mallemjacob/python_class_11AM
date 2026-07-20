@@ -38,18 +38,18 @@
 
 # Function definiton
 
-# def hello(name):  # name ---> parameter, name = 'mouse'
-#     print("Hi there " + name)
-#     print("How are you doing " + name + "?")
-#     print("How old are you?")
-#     print('---------------------------')
+def hello(name):  # name ---> parameter, name = 'mouse'
+    print("Hi there " + name)
+    print("How are you doing " + name + "?")
+    print("How old are you?")
+    print('---------------------------')
 
 
-# # function Calling (Using function)
-# hello("mouse")  # --> Arguments
-# hello('cat')
-# hello('dog')
-# hello('elephant')
+# function Calling (Using function)
+hello("mouse")  # --> Arguments
+hello('cat')
+hello('dog')
+hello('elephant')
 
 
 # def adder(num1, num2):
