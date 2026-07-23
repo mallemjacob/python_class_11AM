@@ -16,7 +16,7 @@ def collatz(number):
 
 
 print('Enter a number: ')
-userInput = int(input())  # 3
+userInput = int(input())  # 'hi'
 
 while True:
     if userInput == 1:
@@ -26,8 +26,12 @@ while True:
         userInput = return_value  # 2
 
 
-# FizzBuzz
+# Home work
+# ------------
+# Add try except to collatz problem.
 
+
+# FizzBuzz
 # if divisible by 3 and 5 print "fizzbuzz"
 # if divisible by 3, print "fizz"
 # if divisible by 5, print "buzz"
