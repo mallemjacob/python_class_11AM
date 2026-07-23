@@ -18,13 +18,13 @@ def zigzag(word, speed):
     count = 0
     direction = True
 
-    while True:
+    for i in range(30):
         print(' ' * count, end='')
         print(word)
         time.sleep(speed)
 
         if direction:
-            if count == 10:
+            if count == 5:
                 direction = False
             else:
                 count = count + 1
