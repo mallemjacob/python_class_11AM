@@ -15,16 +15,19 @@ def collatz(number):
         return 3 * number + 1
 
 
-print('Enter a number: ')
-userInput = int(input())  # 'hi'
-
 while True:
-    if userInput == 1:
+    try:
+        print('Enter a number: ')
+        userInput = int(input())  # '3' -->
+        while True:
+            if userInput == 1:
+                break
+            else:
+                return_value = collatz(userInput)  # 2
+                userInput = return_value  # 2
         break
-    else:
-        return_value = collatz(userInput)  # 2
-        userInput = return_value  # 2
-
+    except ValueError:
+        print('Input must be interger, not any other datatype.')
 
 # Home work
 # ------------
